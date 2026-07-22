@@ -96,7 +96,7 @@ export default function RootLayout({
               </div>
               <div className="text-xs text-gray-500 font-medium">
                 FastAPI: <span className="text-green-400">https://maheenalishah-scidiscovery-ai.hf.space</span>
-              </div>
+           </div>
             </header>
 
             {/* Scrollable Content Container */}

@@ -353,7 +353,7 @@ export default function ResearchSessionPage() {
                         {run.results.charts.map((url, index) => (
                           <div key={index} className="overflow-hidden rounded-xl border border-gray-800 bg-gray-950/40 p-2">
                             <img
-                              src={`https://maheenalishah-scidiscovery-ai.hf.space/${url}`}
+                              src={`https://maheenalishah-scidiscovery-ai.hf.space${url}`}
                               alt={`Simulation Chart ${index + 1}`}
                               className="w-full h-auto rounded-lg"
                             />
