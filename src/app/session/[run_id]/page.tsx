@@ -349,9 +349,9 @@ export default function ResearchSessionPage() {
                       Generated Plot Visualizations
                     </h4>
                     {run.results.charts && run.results.charts.length > 0 ? (
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <div className="grid grid-cols-1 gap-6">
                         {run.results.charts.map((url, index) => (
-                          <div key={index} className="overflow-hidden rounded-xl border border-gray-800 bg-gray-950/40 p-2">
+                          <div key={index} className="overflow-hidden rounded-xl border border-gray-800 bg-gray-950/40 p-4 flex flex-col items-center">
                             <img
                               src={`https://maheenalishah-scidiscovery-ai.hf.space${url}`}
                               alt={`Simulation Chart ${index + 1}`}
